@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background-color: #272C34;
+
+}
+
+header{
+    margin-top: 30px;
+    background-color: #272C34;
+    width: 100%;
+}
+header .container{
+
+    max-width: 1300px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container img{
+    border: 2px solid;
+    margin-left: 100px;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+li{
+    list-style: none;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover{
+    color: #EB1B24;
+    text-shadow: 2px 2px 6px #EB1B24;
+}
+
+div.info-all{
+    border: 2px solid;
+    font-family: "Datatype", monospace;
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+div.info{
+    margin-top: 100px;
+}
+
+h1{
+    font-size: 60px;
+    color: #F7E6D3;
+}
+
+span.nome{
+    font-size: 25px;
+}
+
+span.preco{
+    display: block;
+    margin-top: 30px;
+    font-size: 40px;
+    color: #EB1B24;
+
+}
+
+img.produto{
+    border: 2px solid;
+}
+
+button{
+    display: inline-block;
+    width: 120px;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 1.0;
+    background-color: transparent;
+    border: 1px solid;
+    margin-right: 20px;
+}
+
+button:hover{
+    transform: scale(1.08);
+    background: #EB1B24;
+    border: transparent;
+
+}
+
+footer{
+    text-align: center;
+}
