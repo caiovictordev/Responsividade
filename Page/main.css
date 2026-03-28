@@ -15,14 +15,14 @@ section span{
 
 .main{
     color: #FDF9F2;
-    padding-top: 85px;
+    padding-top: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .main h1{
-    font-size: 30px;
+    font-size: 20px;
 }
 .main button{
     margin-top: 20px;
@@ -31,4 +31,35 @@ section span{
     border-radius: 20px;
     border: none;
     color: #EE761E;
+}
+
+
+@media(min-width: 1024px){
+
+    section span{
+    margin-top: 20px;
+    }
+
+    .main{
+    color: #FDF9F2;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .main h1{
+    font-size: 40px;
+    }
+    .main button{
+    margin-top: 30px;
+    padding: 20px;
+    width: 250px;
+    border-radius: 20px;
+    border: none;
+    color: #EE761E;
+    font-size: 20px;
+    }
+
+
 }

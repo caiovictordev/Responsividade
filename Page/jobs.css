@@ -1,4 +1,5 @@
 article{
+    border: 2px solid red;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -23,4 +24,47 @@ article{
 }
 .card-img{
     width: 40px;
+}
+
+
+@media(min-width: 1024px){
+    
+
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+    }
+    article{
+    border: 2px solid red;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    }
+    article h2{
+        font-size: 30px;
+    }
+    .card1 span{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight:bold ;
+    }
+    .card1{
+    padding: 40px;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 20px;
+    background-color: #FAFCFD;
+
+    }
+    .card-img{
+    width: 60px;
+    }
 }
