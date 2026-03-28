@@ -1,5 +1,4 @@
 article{
-    border: 2px solid red;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
@@ -36,7 +35,6 @@ article{
         gap: 30px;
     }
     article{
-    border: 2px solid red;
     margin-top: 20px;
     display: flex;
     flex-direction: column;
